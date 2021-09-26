@@ -1,5 +1,5 @@
-# The-Real-Estate-Project-BE-pjt-36
-This is the backend of the product. Language used is django
+# <-----HOMESPOT----->The-Real-Estate-Project
+Language used is django
 
 ## Table of contents
 <details>
@@ -11,8 +11,7 @@ This is the backend of the product. Language used is django
 3. [Installation](#install)
 3. [Usage](#usage)
 3. [Contribution Guide](#contribute)
-3. [Credit](#credit)
-3. [License](#license)
+
 
  
 <!-- /MarkdownTOC -->
@@ -25,7 +24,12 @@ A whole lot of Nigerians make complaints about how agents rip them off in the na
 The fraudulent act of real estate agents reduce by a certain size and our product would be the destination for advertising and finding real estate anywhere in Nigeria
 
 ## Installation <a name="install"></a>
-- we will Tell other users how to install our project locally
+-Fork the project
+- clone the project into your local machine
+- initiate your desired virtual machine
+- install all the modules from the requirements.txt file
+- then add your DB details to the env file
+- run python manage.py runserver
  
 ## Usage <a name="usage"></a>
 - we will instruct other people on how to use our project after they’ve installed it. This would also be a good place to include screenshots of our project in action
@@ -33,8 +37,4 @@ The fraudulent act of real estate agents reduce by a certain size and our produc
 ##  Contribution Guide <a name="contribute"></a>
 - i have explained how other developers can contribute to your work 
 ----
-## Credits <a name="credit"></a> 
-- This will Include a section for credits in order to highlight and link to the authors of this project
 
-## License <a name="license"></a> 
-- Finally, we would include a section for the license of this project
