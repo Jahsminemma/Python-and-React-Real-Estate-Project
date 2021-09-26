@@ -1,0 +1,64 @@
+.app_header{
+    width: 100%;
+    padding: 0%;
+    z-index: 99999;
+    position: relative;
+    top: 0;
+}
+
+.navBar{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    margin:8px;
+}
+.logo a{
+    color: #fa133a;
+}
+
+.navlink ul {
+    list-style: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    display: flex;
+}
+.navlist {
+    color: white;
+    padding: 20px;
+}
+.navlist .link{
+    text-decoration: none;
+    color:white;
+}
+.btn{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+/*Mobile device*/
+@media (max-width: 800px){
+    .app_header{
+        display: none;
+    }
+    .navBar{
+        background-color: tomato;
+        height: 100vh;
+        
+    }
+    
+    .navlink ul { 
+        display: block;
+    }
+    .btn{
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+
+}

@@ -1,0 +1,63 @@
+.authpage__container{
+    background-color: #e9e7e7;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+.header{
+    background-color: #5f5d5d;
+}
+.authpage__image{
+    height: 100vh;
+    width: 80%;
+    background-image: url('https://baganbaksho.com/wp-content/uploads/2019/09/pool.jpg');
+    background-repeat: 'no-repeat';
+    background-color:grey;
+    background-size: cover;
+    background-position: 'center';
+}
+.authpage__tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tab__row{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+}
+
+.signup__tab, .login__tab{
+    padding-bottom: 6px;
+    font-size: 18px;
+    width: 73px;
+    border-radius:5px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.tab__border__line{
+    width: 165px;
+    height: 4px;
+    border-radius: 4px;
+    margin-top: -4px;
+    background-color: #7e7c7c;
+}
+.authpage__text{
+    text-align: left;
+    color: #5f5d5d;
+    margin: auto;
+}
+.form__container{
+    max-width: 100vmax;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.form-select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.7px solid rgb(175, 174, 174);
+}

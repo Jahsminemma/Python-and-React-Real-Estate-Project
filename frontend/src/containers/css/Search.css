@@ -1,0 +1,12 @@
+.page__header{
+    background-color:#030c2b;
+    margin-bottom: 20px;
+}
+.search__listing{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+}
+.footer{
+    margin-top:100px
+}

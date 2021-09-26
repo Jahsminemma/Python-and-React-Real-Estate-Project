@@ -1,0 +1,147 @@
+.home{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    overflow: hidden;
+    margin: 0%;
+}
+.hero{
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1496180727794-817822f65950?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+@media (max-width:600px) {
+    .hero{
+        height: 100%;
+    }
+}
+.hero_content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 22%;
+    background-blend-mode: overlay;
+    
+}
+.hero_content .logo h1{
+    color: #fa133a;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 50px;
+    
+}
+.hero_content h1 .logo_inner{
+    color: white;
+}
+.hero_txt{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    color: #ffffff
+}
+
+.listing_form{
+    margin: 30px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgb(126, 125, 125);
+    border-radius: 10px;
+}
+.search_input{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.search_input input{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.search_input > .MuiSvgIcon-root{
+    color: #fa133a;
+    font-size: 70px;
+    position: relative;
+    right: 10px;
+}
+
+.deals h2{
+   cursor: pointer;
+   user-select: none;
+}
+
+.deals .row h2{
+    padding: 20px;
+}
+
+.listing_row{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 20px;
+}
+@media (max-width :1000px){
+    .listing_row{
+        grid-template-columns:auto auto;
+    }
+}
+@media (max-width: 767px){
+    .listing_row{
+        grid-template-columns: auto;
+    }
+}
+.visibility-hidden{
+    visibility: hidden;
+}
+.featured_brand{
+    margin: 80px 50px;
+    background-color: rgb(217, 236, 238);
+    box-shadow: 0px 0px 177px rgb(184, 197, 197);
+}
+.featured_text{
+    display: grid;
+    place-items: center;
+}
+
+.featured_text h3{
+    margin-top: 20px;
+}
+.line{
+    width: 40px;
+    height: 5px;
+    background-color:#fa133a ;
+}
+
+.press-links {
+    padding-left: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+    margin: 50px;
+}
+.press-links li img{
+    width: 100px;
+    filter: sepia();
+}
+@media (max-width: 700px) {
+    .press-links li img{
+        width: 70px;
+    }
+}
+.hotel-owners a{
+    text-decoration: none;
+    color: white;
+}
+
+
+

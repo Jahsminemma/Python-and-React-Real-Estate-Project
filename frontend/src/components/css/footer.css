@@ -1,0 +1,98 @@
+/*footer*/
+
+.footer {
+    background: #030c2b;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 88888;
+    margin-top: 50px;
+}
+.footer .logo h2{
+    color:#fa133a;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.footer .flex{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer .flex .about{
+  width: 50%;
+  margin: 10px 20px 10px 0px;
+}
+
+  .footer h3 {
+    color: #fa133a;
+    font-family: sans-serif;
+  }
+  .footer p.large-paragraph {
+    color: whitesmoke;
+  }
+  .social-links {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .footer input {
+    padding: 20px;
+    border: none;
+  }
+  
+  .footer .newsletter button {
+    background-color: #fa133a;
+    border: none;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: whitesmoke;
+  }
+  @media (max-width: 330px) {
+    .footer input {
+      padding: 8px;
+    }
+    footer .newsletter button {
+      padding: 8px;
+    }
+  }
+
+  @media (max-width:600px){
+    .footer .flex{
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+    .footer .flex .about{
+      width: 100%;
+    }
+  }
+  
+  .footer ul li {
+    display: inline;
+    position: relative;
+    bottom: 14px;
+    padding-right: 8px;
+  }
+  .footer .links{
+    margin:18px 10px;
+
+  }
+
+  .footer ul li a {
+    color: whitesmoke;
+    margin-top: 20px;
+  }
+  .footer hr {
+    border: 1px solid rgb(20, 184, 47);
+  }
+  .footer-text p {
+    font-size: 16px;
+    color: white;
+  }
+  .footer-text p a {
+    color: #fa133a;
+    font-size: 16px;
+  }
+  
+  /*footer ends*/
